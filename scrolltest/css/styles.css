@@ -1,0 +1,33 @@
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#slide_wrap {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-size: 210% auto;
+}
+
+#slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+#slide li {
+  margin-right: 150px;
+}
+
+#slide img {
+  height: 400px;
+}
+
+.slide_contents {
+  color: #fff;
+  font-size: 4vw;
+  font-family: monospace;
+}
